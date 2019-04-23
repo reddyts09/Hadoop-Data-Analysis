@@ -6,10 +6,10 @@ This assignment wants us to use hadoop to build mapper and reducer scripts that 
 - ssh reddyts@hadoop-gate-0.eecs.uc.edu
 
 2. Use git command to clone the project from github:
-- git clone https://github.com/reddyts09/cloudhw4.git
+- git clone https://github.com/reddyts09/cloud4.git
 
 3. Change the directory to access the mapper and reducer script files:
-- cd cloudhw4
+- cd cloud4
 
 4. Add the reducer and mapper script files to the hadoop cluster:
 - hadoop fs -put mapper_tarun.py ./mapper_tarun.py
