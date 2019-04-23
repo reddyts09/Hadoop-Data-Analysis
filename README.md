@@ -2,7 +2,7 @@
 This assignment wants us to use hadoop to build mapper and reducer scripts that analyze the csv file and then yield summary counts for each vehicle
 
 # Configuration Details:
-1. To connect to the hadoop web cluster:
+1. To connect to the Hadoop Web Server:
 - ssh reddyts@hadoop-gate-0.eecs.uc.edu
 
 2. Use git command to clone the project from github:
