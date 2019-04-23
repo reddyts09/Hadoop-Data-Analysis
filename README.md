@@ -18,6 +18,13 @@ This assignment wants us to use hadoop to build mapper and reducer scripts that 
 5. Run the twp scripts using the following hadoop mapreduce command:
 - hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar -file mapper_tarun.py -mapper mapper_tarun.py -file reducer_tarun.py -reducer reducer_tarun.py -input /user/tatavag/nyc.data -output /user/reddyts/tarunop/
 
+6. In order to get the output type the following command:
+- hadoop fs -get tarunop
+
+7. To view the output type:
+- cd tarunop
+- cat part-00000
+
 # Built With
 - Hadoop: Web Cluster
 - Python: Programming Language used
